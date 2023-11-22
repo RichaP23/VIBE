@@ -1,0 +1,685 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.top-bar {
+    background-color: #FFBA34;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+#timer {
+    font-family: 'Overpass', sans-serif;
+    font-size: 2em;
+    color: #fff;
+}
+
+.hours, .minutes, .seconds {
+    font-family: 'Poppins','Overpass', sans-serif;
+    font-size: 1em;
+    margin: 0 5px;
+}
+.responsive-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+.background{
+    display: flex;
+    flex-direction: column;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.top-bar {
+    background-color: #FFBA34;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4vh;
+    z-index: 2; /* Ensure the top bar is above the content */
+}
+
+#timer {
+    font-family: 'Overpass', sans-serif;
+    font-size: 2em;
+    color: #fff;
+}
+
+.hours, .minutes, .seconds {
+    font-size: 1em;
+    margin: 0 5px;
+}
+
+.content-container {
+    position: relative;
+}
+
+.responsive-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+    .pages {
+        display: flex;
+        flex-direction: column;
+        height: 500vh;
+    }
+    
+    .page {
+    flex: 1;
+    height: auto; /* Set your desired height */
+    background-size: cover; 
+    background-position: center;
+    }
+    
+    .page1 {
+        background-image: url('Slice\ 1.jpg'); /* Replace with your image path */
+        
+    }
+    
+    .page2 {
+        background-image: url('Slice\ 2.jpg'); /* Replace with your image path */
+    }
+    
+    .page3 {
+        background-image: url('Slice\ 3.jpg'); /* Replace with your image path */
+    }
+    
+    
+    /* Your existing styles here */
+
+.yellow-box {
+    background-color: #FFBA34;
+    padding: 30px;
+    text-align: center;
+    margin-top: 50vh; /* Adjust as needed */
+  }
+  
+  .box-content {
+    color: #fff;
+    font-family: 'Your-Font-Here', sans-serif; /* Use the desired font */
+  }
+  
+  .rounded-box {
+    display: flex;
+    height: 30.76vh;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 3.86;
+    padding: 10px 10px 10px 10px;
+  }
+  
+  .image-box {
+    flex: 1;
+  }
+  
+  .image-box img {
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    
+  }
+  
+  .text-box {
+    flex: 2;
+    padding: 20px;
+    background-color: #fff;
+    color: #000;
+  }
+  
+  .small-text {
+    font-size: 14px;
+    margin-top: 20px;
+  }
+  
+  .big-text {
+    font-size: 24px;
+    margin-top: 20px;
+  }
+  
+  .yellow-button {
+    background-color: #FFBA34;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  .page.page1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('Slice\ 1.jpg'); /* Set the path to your image */
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Set the height to cover the entire viewport */
+    margin: 0; /* Remove default margin */
+}
+
+.box-content {
+    text-align: center;
+    color: #fff; /* Set the text color to white or your preferred color */
+    /* Add other necessary styles */
+}
+.rounded-box {
+    display: flex;
+    background-color: #FFBA34; /* Yellow color */
+    border-radius: 15px; /* Adjust border-radius as needed for rounded corners */
+    overflow: hidden; /* Ensure overflow is hidden to make rounded corners work */
+    margin: 20px; /* Adjust margin as needed for the gap */
+    height: 35.31vh;
+}
+
+.image-box {
+    flex: 1;
+    overflow: hidden; /* Ensure image does not overflow its container */
+}
+
+.image-box img {
+    width: 100%;
+    height: 100%;
+    background-color: #FFBA34;
+    object-fit: cover; /* Ensure the image covers the entire container while maintaining aspect ratio */
+}
+
+.text-box {
+    flex: 1;
+    background-color: #FFBA34;
+    padding: 20px; /* Add padding for spacing between text and rounded box edges */
+}
+.rounded-box {
+    display: flex;
+    background-color: #FFBA34; /* Yellow color */
+    border-radius: 15px; /* Adjust border-radius as needed for rounded corners */
+    overflow: hidden; /* Ensure overflow is hidden to make rounded corners work */
+    margin: 20px; /* Adjust margin as needed for the gap */
+}
+
+.image-box {
+    flex: 1;
+    overflow: hidden; /* Ensure image does not overflow its container */
+}
+
+.image-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the image covers the entire container while maintaining aspect ratio */
+}
+
+.text-box {
+    flex: 1;
+    padding: 20px; /* Add padding for spacing between text and rounded box edges */
+    font-family: Open Sans;
+    font-family: Open Sans;
+    font-size: 1.951 vh;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+
+}
+
+/* Add the rest of your styles for ul, li, etc. */
+.yellow-button {
+    background-color: #FFBA34;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 20px;
+
+    /* Animation */
+    animation: vibrate 0.5s infinite ease-in-out;
+}
+
+@keyframes vibrate {
+    0%, 100% {
+        transform: translateX(0);
+    }
+    25%, 75% {
+        transform: translateX(-5px);
+    }
+    50% {
+        transform: translateX(5px);
+    }
+}
+.box-content .sub-heading{
+    font-family: Montaga;
+font-size: 5.8vh;
+font-weight: 400;
+letter-spacing: 0em;
+text-align: center;
+
+}
+.box-content h2{
+    font-family: Open Sans;
+font-size: 2.439vh;
+font-weight: 400;
+line-height: 27px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+.box-content .small-text{
+    font-family: Open Sans;
+font-size: 2.191vh;
+font-weight: 400;
+line-height: 25px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+.yellow-button{
+    font-family: Open Sans;
+font-size: 4.96551vh;
+font-weight: 700;
+line-height: 49px;
+letter-spacing: 0em;
+text-align: center;
+color: #000;
+}
+.box-content .big-text{
+    font-family: Open Sans;
+font-size: 4.96;
+font-weight: 400;
+line-height: 49px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+.box-content h2{
+    color: white;
+}
+.pages img{
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+.page2{
+    display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            padding: 20px;
+            margin-top: 0px;
+}
+.page2 .heading {
+    font-family: Montaga;
+font-size: 9.146vh;
+font-weight: 400;
+line-height: 11.829vh;
+letter-spacing: 0em;
+text-align: center;
+color: #AE3B8B;
+
+}
+
+.page2 .list-item {
+    margin-bottom: 10px;
+}
+
+.page2 .highlight-text {
+    color: #000;
+    font-weight: bold;
+}
+.page2 .purple-boxes {
+    padding: 0px 0px 0px 0px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2.43vh;
+    margin-left: 0px;
+    margin-right: 0px;
+    box-sizing: border-box;
+    height:20.63vh;
+    align-items: center;
+}
+
+.page2 .purple-box {
+    text-align: center;
+    padding: 15px; /* Adjust the padding as needed */
+    border-radius: 10px; /* Add rounded corners */
+    background-color: purple; /* Set the background color as needed */
+    color: white; /* Set the text color */
+}
+
+.page2 li{
+    font-family: Open Sans;
+font-size: 3.81vh;
+font-weight: 400;
+line-height: 5.22vh;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.page2 .highlight-text{
+    font-family: Open Sans;
+font-size: 4.40vh;
+font-weight: 600;
+line-height: 6.05vh;
+letter-spacing: 0em;
+text-align: center;
+
+}
+
+.page2 .purple-boxes {
+    padding: 0;
+   
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2.43vh;
+    box-sizing: border-box;
+}
+
+.page2 .purple-box {
+    text-align: center;
+    padding: 20px; /* Adjust the padding as needed */
+    border-radius: 10px; /* Add rounded corners */
+    background-color: purple; /* Set the background color as needed */
+    color: white; /* Set the text color */
+    margin: 0 4.12vh;
+    width: 15vh;
+    height: 10vh;
+}
+.frame{
+    width:100vh;
+    height: 100vh;
+    color:#FFBA34;
+}
+.content-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: wrap row;
+    justify-content: center;
+}
+.page3{
+    padding: 2.439vh 2.439vh 2.439vh 2.439vh;
+}
+
+.content-wrapper{
+    padding: 2.439vh 2.439vh 2.439vh 2.439vh;
+    padding-top:6vh;
+}
+.page-photo {
+    width: auto;
+    height: 60vh;
+    margin-top: 2vh;
+    padding-top: 10vh;
+    border: 2px solid #FFBA34;
+}
+.process-container,
+.table-container,
+.solutions-container,
+.magic-container {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.table-container table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.table-container th, .table-container td {
+    border: 1px solid #ddd;
+    padding: 12px; /* Adjust padding for better spacing */
+    text-align: left;
+}
+
+.table-container th {
+    background-color: #f2f2f2;
+}
+.text-container {
+    width: 50%; /* Adjust the width of the text container as needed */
+    padding: 0px; /* Add padding for spacing between text and border */
+    box-sizing: border-box;
+}
+
+.text-container p {
+    font-family: Open Sans;
+    font-size: 4.413vh;
+    font-weight: 400;
+    line-height: 6.068vh;
+    letter-spacing: 0em;
+    text-align: left;
+    color:white;
+}    
+.process-container h2{
+    font-family: Montaga;
+font-size: 10.344vh;
+font-weight: 400;
+line-height: 13.379vh;
+letter-spacing: 0em;
+text-align: center;
+color:#AE3B8B;
+}
+.solutions-container h2{
+    font-family: Open Sans;
+font-size: 4.96vh;
+font-weight: 600;
+line-height: 6.7586vh;
+letter-spacing: 0em;
+text-align: left;
+color:#222222;
+}
+.solutions-container li{
+    font-family: Open Sans;
+font-size: 4.96vh;
+font-weight: 600;
+line-height: 6.75vh;
+letter-spacing: 0em;
+text-align: left;
+color:rgba(34, 34, 34, 0.8);
+}
+.process-container p{
+    font-family: Open Sans;
+font-size: 4.96vh;
+font-weight: 600;
+line-height: 6.7586vh;
+letter-spacing: 0em;
+text-align: left;
+color:#222222;
+}
+
+.process-container li{
+    font-family: Open Sans;
+font-size: 4.96vh;
+font-weight: 600;
+line-height: 6.75vh;
+letter-spacing: 0em;
+text-align: left;
+color:rgba(34, 34, 34, 0.8);
+}
+.magic-container p{
+    font-family: Open Sans;
+font-size: 3.86vh;
+font-weight: 600;
+line-height: 5.24vh;
+letter-spacing: 0em;
+text-align: center;
+color:rgba(34, 34, 34, 0.8);
+}
+.magic-container strong{
+    font-family: Open Sans;
+font-size: 4.96vh;
+font-weight: 700;
+line-height: 6.7586vh;
+letter-spacing: 0em;
+text-align: center;
+}
+.table-container tr td{
+    font-family: Open Sans;
+font-size: 28px;
+font-weight: 600;
+line-height: 38px;
+letter-spacing: 0em;
+text-align: center;
+color:rgba(0, 0, 0, 1);
+}
+.table-container th{
+    font-family: Open Sans;
+font-size: 28px;
+font-weight: 700;
+line-height: 38px;
+letter-spacing: 0em;
+text-align: center;
+color:rgba(0, 0, 0, 1);
+}
+.center-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; /* Adjust margin as needed */
+}
+.secondpage {
+    display: flex;
+    flex-direction: column;
+    height:300vh;
+}
+
+.second {
+flex: 1;
+height: auto; /* Set your desired height */
+background-size: cover; 
+background-position: center;
+}
+
+.page4 {
+    background-image: url('Slice\ 4.jpg'); /* Replace with your image path */
+}
+
+.page5 {
+    background-image: url('zodiac.jpeg'); /* Replace with your image path */
+}
+.page6{
+    background-image: url('Slice\ 5.jpg'); /* Replace with your image path */
+}
+.page4 .testimonials-content {
+    text-align: center;
+    padding: 20px;
+}
+
+.page4 .video-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.page4 .rounded-video {
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 10px;
+}
+
+.page4 .rounded-video iframe {
+    width: 60vh;
+    height: 50vh;
+}
+.testimonials-content h2{
+    font-family: Montaga;
+font-size: 14.4vh;
+font-weight: 400;
+line-height: 18.6vh;
+letter-spacing: 0em;
+text-align: center;
+color:rgba(174, 59, 139, 1);
+}
+.testimonials-content p{
+    font-family: Open Sans;
+font-size: 3.846vh;
+font-weight: 400;
+line-height: 5.19vh;
+letter-spacing: 0em;
+text-align: center;
+
+}
+.page5 .purple-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.page5 .purple-box {
+    flex: 0 1 calc(33.33% - 20px);
+    background-color: purple;
+    color: white;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    margin: 10px;
+    max-width: 40vh;
+}
+
+.page5 .testimonial {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.page5 .rounded-container {
+    width: 19.23vh;
+    height: 19.23vh;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.page6 h1{
+    font-family: Montaga;
+font-size: 14.42vh;
+font-weight: 400;
+line-height: 14.42vh;
+letter-spacing: 0em;
+text-align: center;
+color:#AE3B8B;
+}
+.page6 p{
+    font-family: Open Sans;
+font-size: 4.61vh;
+font-weight: 400;
+line-height: 6.43vh;
+letter-spacing: 0em;
+text-align: center;
+
+}
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* or any other preferred spacing */
+}
+.centertext span{
+    color:#FFBA34;
+}
+.OneStroke{
+font-family: Open Sans;
+font-size: 3.46vh;
+font-weight: 600;
+line-height: 5.19vh;
+letter-spacing: 0em;
+text-align: center;
+padding-top: 5vh;
+padding-bottom:5vh;
+}
+.box-content h2{
+    color:white;
+}
